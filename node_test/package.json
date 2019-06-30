@@ -1,0 +1,14 @@
+{
+  "name": "node_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test my application",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js --watch ../",
+    "deploy": "deploy; docker build"
+  },
+  "author": "",
+  "license": "ISC"
+}
